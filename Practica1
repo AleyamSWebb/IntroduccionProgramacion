@@ -1,0 +1,66 @@
+package ;
+
+public class practica1 {
+
+  public static void main(String[] args) {
+  
+  System.out.println("Bienvenido!");
+  
+  int = O;
+  int = U;
+  int = E;
+  int = L;
+  int = D;
+  int = R;
+  Curvas:O,U;
+  Rectas:E,L;
+  Mixta:D,R;
+  int= resultado
+  
+  System.out.print("Escoja una letra O,U,E,L,D,R");
+  
+   if ( Curvas == O,U) {
+            System.out.println("Son curvas");
+  if ( Rectas == E,L) {
+            System.out.println("Son rectas");
+  if ( Mixta == D,R) {
+            System.out.println("Son mixtas");
+        }
+  }
+}
+
+//Ejersicio 2
+
+import java.util.Scanner;
+
+public class NumeroParImpar
+{
+    public static void main( String[] args )
+    {
+        int numero;
+        Scanner teclado = new Scanner( System.in );
+
+        System.out.printf( "Introduzca un número entero: " );
+        numero = teclado.nextInt();
+
+        if ( numero % 2 == 0 )
+        {
+            System.out.printf( "ES PAR POSITIVO" );
+        }
+        
+        if ( numero % -2 == 0 )
+        {
+            System.out.printf( "ES PAR NEGATIVO" );
+        }
+        
+            if ( numero % -2 == 0 )
+        {
+            System.out.printf( "ES IMPAR NEGATIVP" );
+        
+         if ( numero % 3 == 0 )
+        {
+        
+            System.out.printf( "ES IMPAR POSITICVO" );
+        }
+        }
+    }
